@@ -6,6 +6,9 @@ sap.ui.define([
 	return Controller.extend("UGB.UI5_Git_Basics.controller.View1", {
 		onInit: function () {
 
+		},
+		onClick:function(){
+			sap.m.MessageToast.show("hi veirendra");
 		}
 	});
 });
