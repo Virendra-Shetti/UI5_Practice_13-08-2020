@@ -5,6 +5,7 @@
 				<Page id="page" title="{i18n>title}">
 					<content>
 						<Label text="Signiwis UI5" design="Bold"></Label>
+						<Button text="click" press="onClick"></Button>
 					</content>
 				</Page>
 			</pages>
